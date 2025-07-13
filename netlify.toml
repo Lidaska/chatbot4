@@ -1,0 +1,10 @@
+[build]
+  publish = "dist"
+
+[dev]
+  command = "npm run start"  # your local dev start command
+  port = 8888
+  targetPort = 5000
+
+[functions]
+  directory = "netlify/functions"
